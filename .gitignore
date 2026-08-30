@@ -1,0 +1,20 @@
+# ===== logs: ignore all .log, but keep keep.log =====
+*.log
+!keep.log
+
+# ===== build output (Rust target / C,Unity build) =====
+target/
+build/
+
+# ===== temp files =====
+*.tmp
+
+# ===== secrets: NEVER upload =====
+secret.env
+
+# ===== editor / OS junk =====
+.vscode/
+Thumbs.db
+
+# ===== legacy: a tracked file needs "git rm --cached" first =====
+already_tracked.txt
